@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LAC</string>
+    <string name="splash_footer_text">Modern and Trusted Land Administration</string>
+    <string name="choose_tenant">Choose Teanat</string>
+    <string name="public_access">Public Access</string>
+    <string name="search_register">Search Register</string>
+    <string name="title_id">Title ID</string>
+    <string name="parcel_id">Parcel ID</string>
+    <string name="plan_id">Plan ID</string>
+    <string name="search">Search</string>
+    <string name="owner">Owner</string>
+    <string name="info">Information</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="no_tenant">There is no Tenants found</string>
+    <string name="no_result">There is no records found</string>
+</resources>

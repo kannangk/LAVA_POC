@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+
+
+    <io.aequalis.lava.utils.SFNormalTextview
+        android:id="@+id/textNavigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_banner_lay"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Small Text"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/medium_text"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            android:background="#E3EBFF"/>
+        <View
+            android:id="@+id/iv_selector"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            android:background="@color/app_blue"/>
+    </RelativeLayout>
+    </LinearLayout>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/splash_bg"
+        android:alpha="0.8"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_logo"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:padding="20dp">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="@dimen/pb_size"
+                android:layout_height="@dimen/pb_size"
+                android:layout_gravity="center"
+                android:indeterminateDrawable="@drawable/custom_progress_bg"
+                android:progressDrawable="@drawable/custom_progress_bg" />
+
+            <io.aequalis.lava.utils.SFNormalTextview
+                android:id="@+id/msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="25dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/splash_footer_text"
+                android:textSize="@dimen/very_small_text"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

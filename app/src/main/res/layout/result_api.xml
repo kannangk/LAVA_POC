@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="5dp"
+    android:background="@color/white"
+    android:clickable="true"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <io.aequalis.lava.utils.MonacoTextview
+            android:id="@+id/api_keys"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:lineSpacingExtra="5dp"
+            android:text="curl --location --request GET\nkehfdiuweg "
+            android:layout_marginBottom="20dp"
+            android:textSize="@dimen/normal_small_text"
+            android:textColor="@color/black"
+            android:minHeight="200dp"
+            android:background="@drawable/selector_edittext"/>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
